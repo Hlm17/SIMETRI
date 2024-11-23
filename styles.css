@@ -1,0 +1,174 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+
+}
+
+nav {
+  justify-content: space-between;
+  padding: 24px 34px 24px 30px;
+  margin: 12px 12px 5px 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.hlm {
+  display: flex;
+  text-align: left;
+  
+}
+
+@media screen and (min-width: 601px) {
+  .hlm {
+    font-size: 150%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hlm {
+    font-size: 80%;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  li {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  li {
+    font-size: 59%;
+  }
+}
+
+ul {
+  justify-content: right;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+  text-align: center;
+  font-size: 97%;
+}
+
+.containerHero {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 16px;
+  gap: 16px;
+}
+
+.containerImage {
+  /* border: 1px solid pink; */
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  object-fit: cover;
+  m argin-left: 12vw;
+  margin-top: 5vw;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.containerTextHero {
+  /* border: 1px solid green; */
+}
+
+.containerTextHero .title {
+  color: #2349ff;
+}
+
+.containerHero .subtitle {
+  font-weight: 300;
+}
+
+@media only screen and (min-width: 1024px) {
+  .containerHero {
+    flex-direction: row-reverse;
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    } 
+
+    /* Styles for small desktops (769px to 1024px) */
+  .aboutme {
+    background-color: #ffe0b2; /* Light orange background for small desktops */
+    font-size: 18px; /* Slightly larger text */
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+    gap: 96px;  
+    }
+}
+
+  .containerImage {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  .containerHero h2{
+    font-size: 48px;
+  }
+
+  .containerHero .subtitle{
+    font-size: 30px;
+  }
+
+  .aboutme {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    max-width: 90%; /* Limit the width to 90% of the viewport */
+    margin: 0 auto; /* Center the div */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.responsive-image {
+  width: 23%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: round the corners of the image */
+}
+
+/* Styles for mobile phones (up to 768px) */
+@media only screen and (min-width: 1px) and (max-width: 1024px) {
+  .aboutme {
+      font-size: 16px; /* Bigger text for readability */
+      display: flex;
+      flex-direction: row;
+      gap: 4vw;
+  }
+
+  .aboutme1 {
+    font-size: 51%;
+  }
+
+  #h2 {
+    font-size: 10vw;
+  }
+
+  .containerImage {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically (if needed) */
+    margin: 20px auto 20px auto;
+    width: 50vw;
+    height: 50vw;
+  }
+
+#centered-image {
+    width: 100%; /* Make the image responsive */
+    height: 100%; /* Maintain aspect ratio */
+}
+
+}
