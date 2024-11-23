@@ -70,7 +70,7 @@ ul {
   height: auto;
   overflow: hidden;
   object-fit: cover;
-  m argin-left: 12vw;
+  margin-left: 12vw;
   margin-top: 5vw;
 }
 
@@ -170,5 +170,4 @@ img {
     width: 100%; /* Make the image responsive */
     height: 100%; /* Maintain aspect ratio */
 }
-
 }
